@@ -511,7 +511,7 @@ namespace VelcroPhysics.Collision.Broadphase
                 }
 
                 // Descend according to the minimum cost.
-                if (cost < cost1 && cost1 < cost2)
+                if (cost < cost1 && cost < cost2)
                 {
                     break;
                 }
